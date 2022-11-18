@@ -1,3 +1,51 @@
+:root {
+  --accent-color: #28a745;
+  --main-bg-color: #ffffff;
+  --primary-text-color: #333333;
+  --secondary-text-color: #ffffff;
+}
+
+/* base */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--main-bg-color);
+  font-size: 18px;
+}
+
+/* reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* utils */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -10,4 +58,11 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* components */
+.container {
+  width: 1360px;
+  padding: 0 28px;
+  margin: 0 auto;
 }
