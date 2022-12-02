@@ -162,30 +162,27 @@ button {
 }
 
 /* Solutions */
-.colutions {
-  background-color: var(--accent-color);
-  color: var(--secondary-text-color);
+
+.solutions .container {
+  padding: 0;
   display: flex;
-  align-items: center;
-  padding: 0 auto;
 }
 
-.bgc-image {
-  width: 100%;
-  height: 100%;
-  /* background-position: center; */
-  background-repeat: no-repeat;
-  background-size: cover;
+.sol-image {
+  background-color: var(--accent-color);
 }
 
-.sol-inform {
-  border: 1px solid grey;
+.solutions-content-wrapper {
+  background-color: var(--accent-color);
+  padding: 84px 44px 84px 30px;
+  width: 50%;
 }
 
 .pre-sol-title {
   font-size: 20px;
   line-height: 1.65;
   margin-bottom: 5px;
+  color: var(--secondary-text-color);
 }
 
 .sol-title {
@@ -193,12 +190,14 @@ button {
   font-size: 38px;
   line-height: 1.26;
   margin-bottom: 26px;
+  color: var(--secondary-text-color);
 }
 
 .sol-text {
   font-size: 18px;
   line-height: 1.56;
   margin-bottom: 17px;
+  color: var(--secondary-text-color);
 }
 
 .sol-link {
