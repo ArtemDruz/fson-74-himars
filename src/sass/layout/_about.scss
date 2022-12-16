@@ -1,0 +1,27 @@
+.about {
+  padding: 122px 0 19px;
+  background-color: #f4f4f4;
+}
+
+.about .container {
+  padding: 0 66px;
+}
+
+.about-list {
+  display: flex;
+  text-align: center;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 71px;
+}
+
+.about-title {
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.about-text {
+  line-height: 1.56;
+}
